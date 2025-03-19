@@ -19,16 +19,14 @@ body {
   background-color: black;
 }
 
-/* .navbar .logo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
+.navbar .logo {
+  margin-right: 25px;
+}
 
 .navbar ul{
   display: flex;
   justify-content: center;
-  margin-right: 10%;
+  margin-right: 55px;
   gap: 10px;
   /* width: 10%; */
   align-items: center;
