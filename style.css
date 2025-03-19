@@ -58,6 +58,10 @@ body {
   text-align: justify;
 }
 
+.contact {
+  margin: 50px 20px
+}
+
 .navbar.active {
   background: #000;
 }
