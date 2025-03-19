@@ -7,18 +7,26 @@
     <title>Sticky Navbar</title>
   </head>
   <body>
-    <section class="navbar">
-      <img src="./assets/logo.svg" class="logo" alt="logo">
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Contact</a></li>
+    <section class="navbar active">
+      <a href="#home"><img src="./assets/logo.svg" class="logo" alt="logo">
+      </a>
+      <ul>      
+        <li><a href="#home">Home</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </section>
-    <section class="top-container">
+    <section id="home" class="top-container">
       <h1>Welcome to our website</h1>
     </section>
-    <section class="bottom-container">
+    <section id="blog" class="bottom-container">
+      <p class="text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam doloremque maxime id dolorum necessitatibus perspiciatis tempore, quis sunt. Quas iusto rerum iste voluptas accusantium qui nostrum similique possimus neque vel?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam doloremque maxime id dolorum necessitatibus perspiciatis tempore, quis sunt. Quas iusto rerum iste voluptas accusantium qui nostrum similique possimus neque vel?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam doloremque maxime id dolorum necessitatibus perspiciatis tempore, quis sunt. Quas iusto rerum iste voluptas accusantium qui nostrum similique possimus neque vel?
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum magnam quia debitis hic, quos deleniti, eveniet sunt voluptas laudantium dolorum quod. Animi repudiandae perferendis aliquam sit laudantium ut deleniti possimus?
+      </p>
+
       <p class="text">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam doloremque maxime id dolorum necessitatibus perspiciatis tempore, quis sunt. Quas iusto rerum iste voluptas accusantium qui nostrum similique possimus neque vel?
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam doloremque maxime id dolorum necessitatibus perspiciatis tempore, quis sunt. Quas iusto rerum iste voluptas accusantium qui nostrum similique possimus neque vel?
@@ -40,5 +48,7 @@
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum magnam quia debitis hic, quos deleniti, eveniet sunt voluptas laudantium dolorum quod. Animi repudiandae perferendis aliquam sit laudantium ut deleniti possimus?
       </p>
     </section>
+
+    <section id="contact" class="contact">Contact</section>
   </body>
 </html>

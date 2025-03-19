@@ -5,22 +5,23 @@
 }
 
 body {
-  /* margin: 0;
-  padding: 0; */
+  padding: 0;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
+  position: fixed;
+  width: 100%;
   padding: 30px;
-  /* width: 100%; */
-  background-color: black;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
 }
 
 .navbar .logo {
   margin-right: 25px;
+  cursor: pointer;
 }
 
 .navbar ul{
@@ -30,6 +31,10 @@ body {
   gap: 10px;
   /* width: 10%; */
   align-items: center;
+}
+
+.navbar ul a:hover {
+  color: red;
 }
 
 .top-container {
@@ -45,4 +50,18 @@ body {
 .top-container h1 {
   color: #fff;
   margin: auto;
+  letter-spacing: 2px;
+}
+
+.text {
+  margin: 50px 20px;
+  text-align: justify;
+}
+
+.navbar.active {
+  background: #000;
+}
+
+.navbar.active ul a {
+  color: #fff
 }
