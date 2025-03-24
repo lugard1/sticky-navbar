@@ -17,6 +17,7 @@ body {
   padding: 30px;
   background-color: #fff;
   box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  transition: background-color 0.4s;
 }
 
 .navbar .logo {
@@ -59,7 +60,10 @@ body {
 }
 
 .contact {
-  margin: 50px 20px
+  margin: 50px 0 0;
+  background: rgba(128, 128, 128, 0.116);
+  background-size: auto;
+  padding: 20px;
 }
 
 .navbar.active {
