@@ -11,7 +11,6 @@ html {
 body {
   padding: 0;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  /* overflow: hidden; */
 }
 
 .navbar {
@@ -26,17 +25,22 @@ body {
 }
 
 .navbar .logo {
-  margin-right: 25px;
+  margin-right: 5px;
   cursor: pointer;
 }
 
 .navbar ul{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   margin-right: 100px;
-  gap: 10px;
-  /* width: 10%; */
+  font-size: 12px;
+  gap: 1px;
   align-items: center;
+}
+
+.navbar ul li a {
+  display:inline;
 }
 
 .navbar ul a:hover {
@@ -90,4 +94,16 @@ footer {
   align-items: center;
   justify-content: center;
   position: fixed;
+}
+
+@media only screen and (min-width: 600px){
+  .navbar {
+    padding: 40px;
+  }
+
+  .navbar ul {
+    flex-direction: row;
+    gap: 10px;
+  }
+
 }
