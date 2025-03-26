@@ -40,7 +40,9 @@ body {
 }
 
 .navbar ul li a {
-  display:inline;
+  display: block;
+  width: 100px;
+  font-size: 16px;
 }
 
 .navbar ul a:hover {
@@ -103,7 +105,8 @@ footer {
 
   .navbar ul {
     flex-direction: row;
-    gap: 10px;
+    margin-right: 50px;
+    gap: 2px;
   }
 
 }
