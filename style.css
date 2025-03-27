@@ -2,6 +2,7 @@
   list-style: none;
   text-decoration: none;
   margin: 0;
+  padding: 0;
 }
 
 html {
@@ -9,15 +10,16 @@ html {
 }
 
 body {
-  padding: 0;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .navbar {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   position: fixed;
   width: 100%;
+  margin: auto;
   padding: 30px;
   background-color: #fff;
   box-shadow: 0 4px 8px rgba(0,0,0,0.3);
@@ -25,7 +27,14 @@ body {
 }
 
 .navbar .logo {
-  margin-right: 5px;
+  display: block;
+  width: 150px;
+  font-size: 60px;
+  font-weight: 700;
+  align-items: center;
+  justify-content: center;
+  /* outline: 1px solid; */
+  /* margin-right: 5px; */
   cursor: pointer;
 }
 
